@@ -13,7 +13,7 @@ const initialState = ImmutableMap({
   side_arm  : 'unlisted',
   side_arm_reply_mode : 'keep',
   show_reply_count : true,
-  always_show_spoilers_field: false,
+  always_show_spoilers_field: true,
   confirm_missing_media_description: false,
   confirm_boost_missing_media_description: false,
   confirm_before_clearing_draft: true,
@@ -23,10 +23,10 @@ const initialState = ImmutableMap({
   hicolor_privacy_icons: true,
   show_content_type_choice: true,
   filtering_behavior: 'hide',
-  tag_misleading_links: false,
+  tag_misleading_links: true,
   rewrite_mentions: 'no',
   content_warnings : ImmutableMap({
-    auto_unfold : false,
+    auto_unfold : true,
     filter      : null,
   }),
   collapsed : ImmutableMap({
@@ -46,9 +46,9 @@ const initialState = ImmutableMap({
     show_action_bar : true,
   }),
   media     : ImmutableMap({
-    letterbox        : false,
+    letterbox        : true,
     fullwidth        : true,
-    reveal_behind_cw : false,
+    reveal_behind_cw : true,
     pop_in_player    : true,
     pop_in_position  : 'right',
   }),
