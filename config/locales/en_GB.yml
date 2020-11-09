@@ -33,7 +33,7 @@ en_GB:
       one: status
       other: statuses
     status_count_before: Who authored
-    tagline: Federated ad-free adult social media
+    tagline: Federated adult social media.
     terms: Terms of service
     user_count_after:
       one: user
