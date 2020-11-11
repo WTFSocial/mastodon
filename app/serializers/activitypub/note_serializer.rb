@@ -45,12 +45,8 @@ class ActivityPub::NoteSerializer < ActivityPub::Serializer
   end
 
   def sensitive
-    true || (!instance_options[:allow_local_only] && Setting.outgoing_spoilers.present?)
+    object.sensitive || (!instance_options[:allow_local_only] && Setting.outgoing_spoilers.present?)
   end
-
-  # def sensitive
-  #   object.sensitive || (!instance_options[:allow_local_only] && Setting.outgoing_spoilers.present?)
-  # end
 
   def direct_message
     object.direct_visibility?
