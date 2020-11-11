@@ -2,13 +2,13 @@
 hr:
   about:
     about_hashtag_html: Ovo su javni tootovi označeni s <strong>#%{hashtag}</strong>. Možete biti u interakciji s njima, ako imate račun bilo gdje u fediverzumu.
-    about_mastodon_html: 'Društvena mreža budućnosti: bez oglasa, bez korporativnog nadzora, etički dizajn i decentralizacija! Budite u vlasništvu svojih podataka pomoću Mastodona!'
+    about_mastodon_html: 'Društvena mreža budućnosti: bez oglasa, bez korporativnog nadzora, etički dizajn i decentralizacija! Budite u vlasništvu svojih podataka pomoću WTF Sociala!'
     about_this: Dodatne informacije
     active_count_after: aktivnih
     active_footnote: Mjesečno aktivnih korisnika (MAU)
     api: API
     apps: Mobilne aplikacije
-    apps_platforms: Koristite Mastodon na iOS-u, Androidu i drugim platformama
+    apps_platforms: Koristite WTF Social na iOS-u, Androidu i drugim platformama
     contact: Kontakt
     contact_missing: Nije postavljeno
     discover_users: Otkrijte korisnike
@@ -248,7 +248,7 @@ hr:
     aliases: Pseudonimi računa
     appearance: Izgled
     authorized_apps: Autorizirane aplikacije
-    back: Natrag na Mastodon
+    back: Natrag na WTF Social
     delete: Brisanje računa
     development: Razvijanje
     edit_profile: Uredi profil
@@ -293,7 +293,7 @@ hr:
     welcome:
       edit_profile_action: Postavi profil
       review_preferences_action: Promijeni postavke
-      subject: Dobro došli na Mastodon
+      subject: Dobro došli na WTF Social
       tips: Savjeti
   users:
     invalid_email: Adresa e-pošte nije valjana

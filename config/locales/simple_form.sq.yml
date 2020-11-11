@@ -62,7 +62,7 @@ sq:
       form_challenge:
         current_password: Po hyni në një zonë të sigurt
       imports:
-        data: Kartelë CSV të eksportuar nga një tjetër shërbyes Mastodon
+        data: Kartelë CSV të eksportuar nga një tjetër shërbyes WTF Social
       invite_request:
         text: Kjo do të na ndihmojë të shqyrtojmë aplikimin tuaj
       ip_block:

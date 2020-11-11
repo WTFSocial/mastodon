@@ -2,25 +2,25 @@
 id:
   about:
     about_hashtag_html: Ini adalah toot publik yang ditandai dengan <strong>#%{hashtag}</strong>. Anda bisa berinteraksi dengan mereka jika anda memiliki akun dimanapun di fediverse.
-    about_mastodon_html: Mastodon adalah sebuah jejaring sosial <em>terbuka, open-source</em. Sebuah alternatif <em>desentralisasi</em> dari platform komersial, menjauhkan anda resiko dari sebuah perusahaan yang memonopoli komunikasi anda. Pilih server yang anda percayai &mdash; apapun yang anda pilih, anda tetap dapat berinteraksi dengan semua orang. Semua orang dapat menjalankan server Mastodon sendiri dan berpartisipasi dalam <em>jejaring sosial</em> dengan mudah.
+    about_mastodon_html: WTF Social adalah sebuah jejaring sosial <em>terbuka, open-source</em. Sebuah alternatif <em>desentralisasi</em> dari platform komersial, menjauhkan anda resiko dari sebuah perusahaan yang memonopoli komunikasi anda. Pilih server yang anda percayai &mdash; apapun yang anda pilih, anda tetap dapat berinteraksi dengan semua orang. Semua orang dapat menjalankan server WTF Social sendiri dan berpartisipasi dalam <em>jejaring sosial</em> dengan mudah.
     about_this: Tentang server ini
     active_count_after: aktif
     active_footnote: Pengguna Aktif Bulanan (PAB)
     administered_by: 'Dikelola oleh:'
     api: API
     apps: Aplikasi hp
-    apps_platforms: Gunakan Mastodon dari iOS, Android, dan platform lain
+    apps_platforms: Gunakan WTF Social dari iOS, Android, dan platform lain
     browse_directory: Jelajahi direktori profil dan saring sesuai minat
     browse_local_posts: Jelajahi siaran langsung dari pos publik server ini
-    browse_public_posts: Jelajahi siaran langsung pos publik di Mastodon
+    browse_public_posts: Jelajahi siaran langsung pos publik di WTF Social
     contact: Kontak
     contact_missing: Belum diset
     contact_unavailable: Tidak Tersedia
     discover_users: Temukan pengguna
     documentation: Dokumentasi
-    federation_hint_html: Dengan akun di %{instance} Anda dapat mengikuti orang di server Mastodon mana pun dan di luarnya.
+    federation_hint_html: Dengan akun di %{instance} Anda dapat mengikuti orang di server WTF Social mana pun dan di luarnya.
     get_apps: Coba aplikasi mobile
-    hosted_on: Mastodon dihosting di %{domain}
+    hosted_on: WTF Social dihosting di %{domain}
     instance_actor_flash: 'Akun ini adalah aktor virtual yang dipakai untuk merepresentasikan server, bukan pengguna individu. Ini dipakai untuk tujuan federasi dan jangan diblokir kecuali Anda ingin memblokir seluruh instansi, yang seharusnya Anda pakai blokir domain.
 
 '
@@ -44,11 +44,11 @@ id:
       silenced_title: Server yang dibisukan
       suspended: 'Takkan ada data yang diproses, disimpan, dan ditukarkan dari server ini, sehingga interaksi atau komunikasi dengan pengguna dari server ini tak mungkin dilakukan:'
       suspended_title: Server yang ditangguhkan
-    unavailable_content_html: Mastodon umumnya mengizinkan Anda untuk melihat konten dan berinteraksi dengan pengguna dari server lain di fediverse. Ini adalah pengecualian yang dibuat untuk beberapa server.
+    unavailable_content_html: WTF Social umumnya mengizinkan Anda untuk melihat konten dan berinteraksi dengan pengguna dari server lain di fediverse. Ini adalah pengecualian yang dibuat untuk beberapa server.
     user_count_after:
       other: pengguna
     user_count_before: Tempat bernaung bagi
-    what_is_mastodon: Apa itu Mastodon?
+    what_is_mastodon: Apa itu WTF Social?
   accounts:
     choices_html: 'Pilihan %{name}:'
     endorsements_hint: Anda dapat mempromosikan orang yang Anda ikuti lewat antar muka web, dan mereka akan muncul di sini.
@@ -594,14 +594,14 @@ id:
         desc_html: Ditampilkan pada halaman informasi tambahan<br>Anda bisa menggunakan tag HTML
         title: Deskripsi situs tambahan
       site_short_description:
-        desc_html: Ditampilkan pada bilah samping dan tag meta. Jelaskan apa itu Mastodon dan yang membuat server ini spesial dalam satu paragraf.
+        desc_html: Ditampilkan pada bilah samping dan tag meta. Jelaskan apa itu WTF Social dan yang membuat server ini spesial dalam satu paragraf.
         title: Deskripsi server pendek
       site_terms:
         desc_html: Anda dapat menulis kebijakan privasi, ketentuan layanan, atau hal legal lainnya sendiri. Anda dapat menggunakan tag HTML
         title: Ketentuan layanan kustom
       site_title: Judul Situs
       spam_check_enabled:
-        desc_html: Mastodon dapat melaporkan secara otomatis akun yang mengirimkan pesan berulang tanpa diminta. Ini mungkin ada kesalahan.
+        desc_html: WTF Social dapat melaporkan secara otomatis akun yang mengirimkan pesan berulang tanpa diminta. Ini mungkin ada kesalahan.
         title: Automasi anti-spam
       thumbnail:
         desc_html: Dipakai sebagai pratinjau via OpenGraph dan API. Direkomendasikan 1200x630px
@@ -682,7 +682,7 @@ id:
     confirmation_dialogs: Dialog konfirmasi
     discovery: Jelajah
     localization:
-      body: Mastodon diterjemahkan oleh sukarelawan.
+      body: WTF Social diterjemahkan oleh sukarelawan.
       guide_link: https://crowdin.com/project/mastodon
       guide_link_text: Siapa saja bisa berkontribusi.
     sensitive_content: Konten sensitif
@@ -710,9 +710,9 @@ id:
     delete_account: Hapus akun
     delete_account_html: Jika Anda ingin menghapus akun Anda, Anda dapat <a href="%{path}">memproses ini</a>. Anda akan dikonfirmasi.
     description:
-      prefix_invited_by_user: "@%{name} mengundang Anda untuk bergabung di server Mastodon ini!"
-      prefix_sign_up: Daftar ke Mastodon hari ini!
-      suffix: Dengan sebuah akun, Anda dapat mengikuti orang, mengirim pembaruan, dan bertukar pesan dengan pengguna dari server Mastodon mana pun dan lainnya!
+      prefix_invited_by_user: "@%{name} mengundang Anda untuk bergabung di server WTF Social ini!"
+      prefix_sign_up: Daftar ke WTF Social hari ini!
+      suffix: Dengan sebuah akun, Anda dapat mengikuti orang, mengirim pembaruan, dan bertukar pesan dengan pengguna dari server WTF Social mana pun dan lainnya!
     didnt_get_confirmation: Tidak menerima petunjuk konfirmasi?
     dont_have_your_security_key: Tidak memiliki kunci keamanan?
     forgot_password: Lupa kata sandi?
@@ -821,7 +821,7 @@ id:
       content: Maaf, ada sesuatu yang salah pada sistem kami.
       title: Halaman ini tidak benar
     '503': Halaman ini tidak dapat ditampilkan karena kegagalan server sementara.
-    noscript_html: Untuk menggunakan aplikasi web Mastodon, tolong aktifkan JavaScript. Sebagai alternatif, cobalah <a href="%{apps_path}">aplikasi murni</a> Mastodon untuk platform Anda.
+    noscript_html: Untuk menggunakan aplikasi web WTF Social, tolong aktifkan JavaScript. Sebagai alternatif, cobalah <a href="%{apps_path}">aplikasi murni</a> WTF Social untuk platform Anda.
   existing_username_validator:
     not_found: tidak dapat menemukan pengguna lokal dengan nama pengguna tersebut
     not_found_multiple: tidak dapat menemukan %{usernames}
@@ -1119,7 +1119,7 @@ id:
       weibo: Weibo
     current_session: Sesi sekarang
     description: "%{browser} di %{platform}"
-    explanation: Ini peramban yang sedang dalam posisi masuk akun Mastodon Anda.
+    explanation: Ini peramban yang sedang dalam posisi masuk akun WTF Social Anda.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1143,7 +1143,7 @@ id:
     aliases: Alias akun
     appearance: Tampilan
     authorized_apps: Apl yang diizinkan
-    back: Kembali ke Mastodon
+    back: Kembali ke WTF Social
     delete: Penghapusan akun
     development: Pengembangan
     edit_profile: Ubah profil
@@ -1217,7 +1217,7 @@ id:
       <ul>
       <li><em>Basic account information</em>: If you register on this server, you may be asked to enter a username, an e-mail address and a password. You may also enter additional profile information such as a display name and biography, and upload a profile picture and header image. The username, display name, biography, profile picture and header image are always listed publicly.</li>
       <li><em>Posts, following and other public information</em>: The list of people you follow is listed publicly, the same is true for your followers. When you submit a message, the date and time is stored as well as the application you submitted the message from. Messages may contain media attachments, such as pictures and videos. Public and unlisted posts are available publicly. When you feature a post on your profile, that is also publicly available information. Your posts are delivered to your followers, in some cases it means they are delivered to different servers and copies are stored there. When you delete posts, this is likewise delivered to your followers. The action of reblogging or favouriting another post is always public.</li>
-      <li><em>Direct and followers-only posts</em>: All posts are stored and processed on the server. Followers-only posts are delivered to your followers and users who are mentioned in them, and direct posts are delivered only to users mentioned in them. In some cases it means they are delivered to different servers and copies are stored there. We make a good faith effort to limit the access to those posts only to authorized persons, but other servers may fail to do so. Therefore it's important to review servers your followers belong to. You may toggle an option to approve and reject new followers manually in the settings. <em>Please keep in mind that the operators of the server and any receiving server may view such messages</em>, and that recipients may screenshot, copy or otherwise re-share them. <em>Do not share any dangerous information over Mastodon.</em></li>
+      <li><em>Direct and followers-only posts</em>: All posts are stored and processed on the server. Followers-only posts are delivered to your followers and users who are mentioned in them, and direct posts are delivered only to users mentioned in them. In some cases it means they are delivered to different servers and copies are stored there. We make a good faith effort to limit the access to those posts only to authorized persons, but other servers may fail to do so. Therefore it's important to review servers your followers belong to. You may toggle an option to approve and reject new followers manually in the settings. <em>Please keep in mind that the operators of the server and any receiving server may view such messages</em>, and that recipients may screenshot, copy or otherwise re-share them. <em>Do not share any dangerous information over WTF Social.</em></li>
       <li><em>IPs and other metadata</em>: When you log in, we record the IP address you log in from, as well as the name of your browser application. All the logged in sessions are available for your review and revocation in the settings. The latest IP address used is stored for up to 12 months. We also may retain server logs which include the IP address of every request to our server.</li>
       </ul>
 
@@ -1228,7 +1228,7 @@ id:
       <p>Any of the information we collect from you may be used in the following ways:</p>
 
       <ul>
-      <li>To provide the core functionality of Mastodon. You can only interact with other people's content and post your own content when you are logged in. For example, you may follow other people to view their combined posts in your own personalized home timeline.</li>
+      <li>To provide the core functionality of WTF Social. You can only interact with other people's content and post your own content when you are logged in. For example, you may follow other people to view their combined posts in your own personalized home timeline.</li>
       <li>To aid moderation of the community, for example comparing your IP address with other known ones to determine ban evasion or other violations.</li>
       <li>The email address you provide may be used to send you information, notifications about other people interacting with your content or sending you messages, and to respond to inquiries, and/or other requests or questions.</li>
       </ul>
@@ -1293,9 +1293,9 @@ id:
       <p>Originally adapted from the <a href="https://github.com/discourse/discourse">Discourse privacy policy</a>.</p>
     title: "%{instance} Ketentuan Layanan dan Kebijakan Privasi"
   themes:
-    contrast: Mastodon (Kontras tinggi)
-    default: Mastodon (Gelap)
-    mastodon-light: Mastodon (Terang)
+    contrast: WTF Social (Kontras tinggi)
+    default: WTF Social (Gelap)
+    mastodon-light: WTF Social (Terang)
   time:
     formats:
       default: "%d %b %Y, %H:%M"
@@ -1317,7 +1317,7 @@ id:
     webauthn: Kunci keamanan
   user_mailer:
     backup_ready:
-      explanation: Cadangan penuh akun Mastodon Anda sudah dapat diunduh!
+      explanation: Cadangan penuh akun WTF Social Anda sudah dapat diunduh!
       subject: Arsip Anda sudah siap diunduh
       title: Ambil arsip
     sign_in_token:
@@ -1357,11 +1357,11 @@ id:
       full_handle_hint: Ini yang dapat Anda sampaikan kepada teman agar mereka dapat mengirim pesan atau mengikuti Anda dari server lain.
       review_preferences_action: Ubah preferensi
       review_preferences_step: Pastikan Anda telah mengatur preferensi Anda, seperti email untuk menerima pesan, atau tingkat privasi bawaan untuk postingan Anda. Jika Anda tidak alergi dengan gerakan gambar, Anda dapat mengaktifkan opsi mainkan otomatis GIF.
-      subject: Selamat datang di Mastodon
-      tip_federated_timeline: Linimasa gabungan adalah ruang yang menampilkan jaringan Mastodon. Tapi ini hanya berisi tetangga orang-orang yang Anda ikuti, jadi tidak sepenuhnya komplet.
+      subject: Selamat datang di WTF Social
+      tip_federated_timeline: Linimasa gabungan adalah ruang yang menampilkan jaringan WTF Social. Tapi ini hanya berisi tetangga orang-orang yang Anda ikuti, jadi tidak sepenuhnya komplet.
       tip_following: Anda secara otomatis mengikuti admin server. Untuk mencari akun-akun yang menarik, silakan periksa linimasa lokal dan gabungan.
       tip_local_timeline: Linimasa lokal adalah ruang yang menampilkan orang-orang di %{instance}. Mereka adalah tetangga dekat!
-      tip_mobile_webapp: Jika peramban mobile Anda ingin menambahkan Mastodon ke layar utama, Anda dapat menerima notifikasi dorong. Ia akan berjalan seperti aplikasi asli!
+      tip_mobile_webapp: Jika peramban mobile Anda ingin menambahkan WTF Social ke layar utama, Anda dapat menerima notifikasi dorong. Ia akan berjalan seperti aplikasi asli!
       tips: Tips
       title: Selamat datang, %{name}!
   users:
@@ -1377,7 +1377,7 @@ id:
     signed_in_as: 'Masuk sebagai:'
     suspicious_sign_in_confirmation: Anda terlihat belum pernah masuk dari perangkat ini, dan sudah lama Anda tidak masuk akun, sehingga kami mengirim kode keamanan ke alamat email Anda untuk mengonfirmasi bahwa ini adalah Anda.
   verification:
-    explanation_html: 'Anda dapat <strong>memverifikasi diri Anda sebagai pemiliki tautan pada metadata profil</strong>. Situsweb yang ditautkan haruslah berisi tautan ke profil Mastodon Anda. Tautan tersebut <strong>harus</strong> memiliki atribut <code>rel="me"</code>. Isi teks tautan tidaklah penting. Ini contohnya:'
+    explanation_html: 'Anda dapat <strong>memverifikasi diri Anda sebagai pemiliki tautan pada metadata profil</strong>. Situsweb yang ditautkan haruslah berisi tautan ke profil WTF Social Anda. Tautan tersebut <strong>harus</strong> memiliki atribut <code>rel="me"</code>. Isi teks tautan tidaklah penting. Ini contohnya:'
     verification: Verifikasi
   webauthn_credentials:
     add: Tambahkan kunci keamanan baru

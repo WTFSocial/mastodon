@@ -830,8 +830,8 @@ hy:
 
       <p><strong>Ոչ պաշտօնական, ոչ իրաւական թարգմանութիւն</strong></p>
   themes:
-    default: Mastodon (Մուգ)
-    mastodon-light: Mastodon (Լուսավոր)
+    default: WTF Social (Մուգ)
+    mastodon-light: WTF Social (Լուսավոր)
   time:
     formats:
       default: "%b %d, %Y, %H:%M"

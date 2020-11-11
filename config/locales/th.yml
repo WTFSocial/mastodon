@@ -2,25 +2,25 @@
 th:
   about:
     about_hashtag_html: มีการแท็กโพสต์สาธารณะเหล่านี้ด้วย <strong>#%{hashtag}</strong> คุณสามารถโต้ตอบกับโพสต์หากคุณมีบัญชีที่ใดก็ตามในเฟดิเวิร์ส
-    about_mastodon_html: 'เครือข่ายสังคมแห่งอนาคต: ไม่มีโฆษณา, ไม่มีการสอดแนมโดยองค์กร, การออกแบบตามหลักจริยธรรม และการกระจายศูนย์! เป็นเจ้าของข้อมูลของคุณด้วย Mastodon!'
+    about_mastodon_html: 'เครือข่ายสังคมแห่งอนาคต: ไม่มีโฆษณา, ไม่มีการสอดแนมโดยองค์กร, การออกแบบตามหลักจริยธรรม และการกระจายศูนย์! เป็นเจ้าของข้อมูลของคุณด้วย WTF Social!'
     about_this: เกี่ยวกับ
     active_count_after: ใช้งานอยู่
     active_footnote: ผู้ใช้งานรายเดือน (MAU)
     administered_by: 'ดูแลโดย:'
     api: API
     apps: แอปมือถือ
-    apps_platforms: ใช้ Mastodon จาก iOS, Android และแพลตฟอร์มอื่น ๆ
+    apps_platforms: ใช้ WTF Social จาก iOS, Android และแพลตฟอร์มอื่น ๆ
     browse_directory: เรียกดูไดเรกทอรีโปรไฟล์และกรองตามความสนใจ
     browse_local_posts: เรียกดูสตรีมสดของโพสต์สาธารณะจากเซิร์ฟเวอร์นี้
-    browse_public_posts: เรียกดูสตรีมสดของโพสต์สาธารณะใน Mastodon
+    browse_public_posts: เรียกดูสตรีมสดของโพสต์สาธารณะใน WTF Social
     contact: ติดต่อ
     contact_missing: ไม่ได้ตั้ง
     contact_unavailable: ไม่มี
     discover_users: ค้นพบผู้ใช้
     documentation: เอกสารประกอบ
-    federation_hint_html: ด้วยบัญชีที่ %{instance} คุณจะสามารถติดตามผู้คนในเซิร์ฟเวอร์ Mastodon และอื่น ๆ
+    federation_hint_html: ด้วยบัญชีที่ %{instance} คุณจะสามารถติดตามผู้คนในเซิร์ฟเวอร์ WTF Social และอื่น ๆ
     get_apps: ลองแอปมือถือ
-    hosted_on: Mastodon ที่โฮสต์ที่ %{domain}
+    hosted_on: WTF Social ที่โฮสต์ที่ %{domain}
     learn_more: เรียนรู้เพิ่มเติม
     privacy_policy: นโยบายความเป็นส่วนตัว
     see_whats_happening: ดูสิ่งที่กำลังเกิดขึ้น
@@ -44,7 +44,7 @@ th:
     user_count_after:
       other: ผู้ใช้
     user_count_before: บ้านของ
-    what_is_mastodon: Mastodon คืออะไร?
+    what_is_mastodon: WTF Social คืออะไร?
   accounts:
     choices_html: 'ตัวเลือกของ %{name}:'
     follow: ติดตาม
@@ -540,7 +540,7 @@ th:
         desc_html: แสดงป้ายพนักงานในหน้าผู้ใช้
         title: แสดงป้ายพนักงาน
       site_description:
-        desc_html: ย่อหน้าเกริ่นนำใน API อธิบายถึงสิ่งที่ทำให้เซิร์ฟเวอร์ Mastodon นี้พิเศษและสิ่งอื่นใดที่สำคัญ คุณสามารถใช้แท็ก HTML โดยเฉพาะอย่างยิ่ง <code>&lt;a&gt;</code> และ <code>&lt;em&gt;</code>
+        desc_html: ย่อหน้าเกริ่นนำใน API อธิบายถึงสิ่งที่ทำให้เซิร์ฟเวอร์ WTF Social นี้พิเศษและสิ่งอื่นใดที่สำคัญ คุณสามารถใช้แท็ก HTML โดยเฉพาะอย่างยิ่ง <code>&lt;a&gt;</code> และ <code>&lt;em&gt;</code>
         title: คำอธิบายเซิร์ฟเวอร์
       site_description_extended:
         desc_html: สถานที่ที่ดีสำหรับแนวทางปฏิบัติ, กฎ, หลักเกณฑ์ และสิ่งอื่น ๆ ของคุณที่ทำให้เซิร์ฟเวอร์ของคุณแตกต่าง คุณสามารถใช้แท็ก HTML
@@ -614,7 +614,7 @@ th:
     confirmation_dialogs: กล่องโต้ตอบการยืนยัน
     discovery: ค้นพบ
     localization:
-      body: Mastodon ได้รับการแปลโดยอาสาสมัคร
+      body: WTF Social ได้รับการแปลโดยอาสาสมัคร
       guide_link: https://crowdin.com/project/mastodon/th
       guide_link_text: ทุกคนสามารถมีส่วนร่วม
     sensitive_content: เนื้อหาที่ละเอียดอ่อน
@@ -640,8 +640,8 @@ th:
     delete_account: ลบบัญชี
     delete_account_html: หากคุณต้องการลบบัญชีของคุณ คุณสามารถ <a href="%{path}">ดำเนินการต่อที่นี่</a> คุณจะได้รับการถามเพื่อการยืนยัน
     description:
-      prefix_invited_by_user: "@%{name} เชิญคุณเข้าร่วมเซิร์ฟเวอร์ Mastodon นี้!"
-      prefix_sign_up: ลงทะเบียนใน Mastodon วันนี้!
+      prefix_invited_by_user: "@%{name} เชิญคุณเข้าร่วมเซิร์ฟเวอร์ WTF Social นี้!"
+      prefix_sign_up: ลงทะเบียนใน WTF Social วันนี้!
     didnt_get_confirmation: ไม่ได้รับคำแนะนำการยืนยัน?
     dont_have_your_security_key: ไม่มีกุญแจความปลอดภัยของคุณ?
     forgot_password: ลืมรหัสผ่านของคุณ?
@@ -995,7 +995,7 @@ th:
     aliases: นามแฝงบัญชี
     appearance: ลักษณะที่ปรากฏ
     authorized_apps: แอปที่ได้รับอนุญาต
-    back: กลับไปที่ Mastodon
+    back: กลับไปที่ WTF Social
     delete: การลบบัญชี
     development: การพัฒนา
     edit_profile: แก้ไขโปรไฟล์
@@ -1059,9 +1059,9 @@ th:
   terms:
     title: เงื่อนไขการให้บริการและนโยบายความเป็นส่วนตัวของ %{instance}
   themes:
-    contrast: Mastodon (ความคมชัดสูง)
-    default: Mastodon (มืด)
-    mastodon-light: Mastodon (สว่าง)
+    contrast: WTF Social (ความคมชัดสูง)
+    default: WTF Social (มืด)
+    mastodon-light: WTF Social (สว่าง)
   time:
     formats:
       default: "%d %b %Y, %H:%M"
@@ -1096,7 +1096,7 @@ th:
         suspend: ระงับบัญชีอยู่
     welcome:
       review_preferences_action: เปลี่ยนการกำหนดลักษณะ
-      subject: ยินดีต้อนรับสู่ Mastodon
+      subject: ยินดีต้อนรับสู่ WTF Social
       tips: เคล็ดลับ
       title: ยินดีต้อนรับ %{name}!
   users:

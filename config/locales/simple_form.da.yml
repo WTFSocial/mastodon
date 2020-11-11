@@ -35,7 +35,7 @@ da:
       form_challenge:
         current_password: Du indtræder et sikkert område
       imports:
-        data: CSV fil eksporteret fra en anden Mastodon server
+        data: CSV fil eksporteret fra en anden WTF Social server
       invite_request:
         text: Dette vil hjælpe os med at gennemgå din ansøgning
       ip_block:
