@@ -37,7 +37,7 @@ class LinkFooter extends React.PureComponent {
     e.stopPropagation();
 
     this.props.onLogout();
- 
+
     return false;
   }
 
@@ -51,16 +51,16 @@ class LinkFooter extends React.PureComponent {
           <li><a href='https://joinmastodon.org/apps' target='_blank'><FormattedMessage id='navigation_bar.apps' defaultMessage='Mobile apps' /></a> · </li>
           <li><a href='/terms' target='_blank'><FormattedMessage id='getting_started.terms' defaultMessage='Terms of service' /></a> · </li>
           <li><a href='/settings/applications' target='_blank'><FormattedMessage id='getting_started.developers' defaultMessage='Developers' /></a> · </li>
-          <li><a href='https://docs.joinmastodon.org' target='_blank'><FormattedMessage id='getting_started.documentation' defaultMessage='Documentation' /></a> · </li>
+          <li><a href='/about/more#donation' target='_blank'>Donation</a> · </li>
           <li><a href={signOutLink} onClick={this.handleLogoutClick}><FormattedMessage id='navigation_bar.logout' defaultMessage='Logout' /></a></li>
         </ul>
 
         <p>
           <FormattedMessage
             id='getting_started.open_source_notice'
-            defaultMessage='Glitchsoc is open source software, a friendly fork of {Mastodon}. You can contribute or report issues on GitHub at {github}.'
+            defaultMessage='WTF.Social is open source software, you can report issues on GitHub at {github}.'
             values={{
-              github: <span><a href='https://github.com/glitch-soc/mastodon' rel='noopener noreferrer' target='_blank'>glitch-soc/mastodon</a> (v{version})</span>,
+              github: <span><a href='https://github.com/WTFSocial/mastodon' rel='noopener noreferrer' target='_blank'>WTFSocial/mastodon</a> (v{version})</span>,
               Mastodon: <a href='https://github.com/tootsuite/mastodon' rel='noopener noreferrer' target='_blank'>Mastodon</a> }}
           />
         </p>
