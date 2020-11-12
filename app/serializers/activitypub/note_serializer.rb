@@ -36,17 +36,21 @@ class ActivityPub::NoteSerializer < ActivityPub::Serializer
     object.preloadable_poll ? 'Question' : 'Note'
   end
 
-  # def sensitive
-  #    true
-  # end
+  def sensitive
+     true
+  end
 
   def summary
-    object.spoiler_text.presence || (instance_options[:allow_local_only] ? nil : Setting.outgoing_spoilers.presence)
+    object.spoiler_text.presence
   end
 
-  def sensitive
-    object.sensitive || (!instance_options[:allow_local_only] && Setting.outgoing_spoilers.present?)
-  end
+  # def summary
+  #   object.spoiler_text.presence || (instance_options[:allow_local_only] ? nil : Setting.outgoing_spoilers.presence)
+  # end
+
+  # def sensitive
+  #   object.sensitive || (!instance_options[:allow_local_only] && Setting.outgoing_spoilers.present?)
+  # end
 
   def direct_message
     object.direct_visibility?
