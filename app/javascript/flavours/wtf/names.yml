@@ -1,0 +1,23 @@
+en:
+  flavours:
+    glitch:
+      description: The default flavour for WTF Social.
+      name: WTF Edition
+  skins:
+    glitch:
+      default: Default
+pl:
+  flavours:
+    glitch:
+      description: Domyślny motyw instancji WTF Social.
+  skins:
+    glitch:
+      default: Domyślny
+es:
+  flavours:
+    glitch:
+      description: El diseño predeterminado para las instancias con WTF Social.
+      name: WTF Edition
+  skins:
+    glitch:
+      default: Predeterminado
