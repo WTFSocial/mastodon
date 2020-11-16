@@ -2,7 +2,7 @@ en:
   flavours:
     glitch:
       description: The default flavour for WTF Social.
-      name: Glitch Edition
+      name: WTF Edition
   skins:
     glitch:
       default: Default
@@ -17,7 +17,7 @@ es:
   flavours:
     glitch:
       description: El diseño predeterminado para las instancias con WTF Social.
-      name: Glitch Edition
+      name: WTF Edition
   skins:
     glitch:
       default: Predeterminado

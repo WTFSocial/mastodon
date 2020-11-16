@@ -1,7 +1,7 @@
 en:
   flavours:
     vanilla:
-      description: The theme used by vanilla Mastodon instances. This theme might not support all of the features of GlitchSoc.
+      description: The theme used by vanilla Mastodon instances. This theme might not support all of the features of WTF Social.
       name: Vanilla theme
   skins:
     vanilla:
@@ -9,15 +9,15 @@ en:
 pl:
   flavours:
     vanilla:
-      description: Motyw używany przez instancje czystego Mastodona. Może nie obsługiwać wszystkich funkcji GlitchSoc.
-      name: Mastodon theme
+      description: Motyw używany przez instancje czystego Mastodona. Może nie obsługiwać wszystkich funkcji WTF Social.
+      name: Vanilla theme
   skins:
     vanilla:
       default: Domyślny
 es:
   flavours:
     vanilla:
-      description: El diseño predeterminado en las instancias de Mastodon. Puede que no soporte todas las características de GlitchSoc.
+      description: El diseño predeterminado en las instancias de Mastodon. Puede que no soporte todas las características de WTF Social.
       name: Mastodon Original
   skins:
     vanilla:
